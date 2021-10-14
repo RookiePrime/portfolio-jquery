@@ -575,3 +575,26 @@ function initMap() {
 		title: 'We are here!'
 	});
 }
+
+// function populateWorks() {
+// 	const $worksBoxEl = $('.grid-items');
+
+// 	const workContainerEl = $('<div></div>').addClass('col col-d-6 col-t-6 col-m-12 grid-item design border-line-h');
+// 	const boxItemEl = $('<div></div>').addClass('box-item');
+// 	const imageEl = $('<div></div>').addClass('image');
+// 	const popupAnchorEl = $('<a href="#popup-1"></a>').addClass('has-popup-media');
+// 	const imageTagEl = $('<img src="" alt=""/>');
+// 	const imageSpanEl = $('<span></span>').addClass('info');
+// 	const imageInfoEl = $('<span></span>').addClass('ion ion-images');
+
+// 	imageSpanEl.append(imageInfoEl);
+// 	popupAnchorEl.append(imageTagEl);
+// 	popupAnchorEl.append(imageSpanEl);
+// 	imageEl.append(popupAnchorEl);
+// 	boxItemEl.append(imageEl);
+// 	workContainerEl.append(boxItemEl);
+// 	$worksBoxEl.append(workContainerEl)
+	
+// }
+
+// populateWorks();
