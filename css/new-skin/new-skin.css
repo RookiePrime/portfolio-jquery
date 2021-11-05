@@ -403,6 +403,14 @@ input[type="submit"] {
 	color: #323232;
 }
 
+.lnk {
+	flex-shrink: 2;
+}
+
+.lnk.discover {
+	flex-shrink: 1;
+}
+
 .lnk:before,
 .button:before {
 	background: -moz-radial-gradient(top, ellipse cover, #dddddd 0%, rgba(255, 255, 255, 0) 70%);
@@ -962,7 +970,6 @@ input[type="file"] {
 	padding: 11px 0;
 	position: relative;
 	display: block;
-	vertical-align: top;
 	width: auto;
 	font-size: 16px;
 	word-break: break-word;
@@ -1060,7 +1067,6 @@ input[type="file"] {
 	.content.contacts .info-list ul li {
 		padding: 11px 0;
 		display: block;
-		vertical-align: top;
 		width: auto;
 	}
 	.content.contacts .info-list ul li:first-child {
@@ -2039,7 +2045,6 @@ a.next.page-numbers:hover {
 	line-height: 25px;
 	display: inline-block;
 	font-family: "Ionicons";
-	speak: none;
 	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;
@@ -2199,7 +2204,6 @@ a.next.page-numbers:hover {
 	left: 0;
 	display: inline-block;
 	font-family: "Ionicons";
-	speak: none;
 	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;
